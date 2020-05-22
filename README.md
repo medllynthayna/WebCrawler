@@ -12,7 +12,7 @@ Optamos por selecionar os nomes dos filmes mais populares e o seu ranking no ano
 ## Criação do coletor
 Na criação do coletor utilizamos a seguinte estrutura.
 
-![coletor](https://github.com/medllynthayna/Analise_Dados/blob/master/coletor.PNG)
+![coletor](https://github.com/medllynthayna/WebCrawler/blob/master/coletor.PNG)
 
 Nosso objetivo é coletar as seguintes informações do site IMDb: 
 
@@ -20,18 +20,18 @@ Nosso objetivo é coletar as seguintes informações do site IMDb:
 
 **ranking: em qual posição o filme se econtra** 
 
-![IMDB](https://github.com/medllynthayna/Analise_Dados/blob/master/IMDB.PNG)
+![IMDB](https://github.com/medllynthayna/WebCrawler/blob/master/IBDM.PNG)
 
 Atraves do seletor css **'td.titleColumn'** demos o primiero passo para coletar os dados do site. A coleta é feita usando os seguintes seletores:
 #### titulo: td a::text
 
-![nome Filme](https://github.com/medllynthayna/Analise_Dados/blob/master/nomeFilme.PNG)
+![nome Filme](https://github.com/medllynthayna/WebCrawler/blob/master/nomeFilme.PNG)
 
 #### ranking : td div::text
 
-![posicao Filme](https://github.com/medllynthayna/Analise_Dados/blob/master/posicaoFilme.PNG)
+![posicao Filme](https://github.com/medllynthayna/WebCrawler/blob/master/posicaoFilme.PNG)
 
 
 Por fim temos como resultado um arquivo **.json** com as seguintes informações: 
 
-![json](https://github.com/medllynthayna/Analise_Dados/blob/master/json.PNG)
+![json](https://github.com/medllynthayna/WebCrawler/blob/master/json.PNG)
